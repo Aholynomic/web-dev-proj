@@ -11,13 +11,14 @@
 	}
 	
 	include("connect.php");
-	$sql = "SELECT * FROM myTable ORDER BY ID DESC";
+	$sql = "SELECT * FROM myTable ORDER BY ID ASC";
 	$result = mysqli_query($conn, $sql);
 	if (mysqli_num_rows($result) > 0) {
 		while ($row = mysqli_fetch_assoc($result)){ 
 ?>
-<form action="edit.php" method="POST">
-	<input type="hidden" name="id" value="<?php echo $ID; ?>" />
+<form action="<?php echo htmlspecialchars("https://mayar.abertay.ac.uk/~1801853/coursework/edit.php");?>" method="POST">
+	<p>ID: </p><br>
+	<input type="text" name="id" value="<?php echo $row['ID']; ?>" />
 	<p>First name: </p><br>
 	<input type="text" name="firstname" value="<?php echo $row['Firstname']; ?>" />
 	<p>Surname: </p><br>

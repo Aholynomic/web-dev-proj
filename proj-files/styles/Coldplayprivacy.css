@@ -1,0 +1,84 @@
+body, html {
+	height: 100%;
+	background-color: rgb(64, 64, 64);
+	margin: 0;
+	padding: 0;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+.active {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+	border: 10px solid #000000;
+	background-color: rgba(0, 0, 0, 0.81);
+	margin: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#info {
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-left: 100px;
+	margin-right: 100px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+h1, p {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	padding: 10px;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.row {
+	text-align: center;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 15px;
+}
+
+.nav>li>a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+a {
+	color: #fff099; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	border-top: solid 3px;
+	border-top-color: #fff099;
+	border-bottom: solid 3px;
+	border-bottom-color: #fff099;
+	background-color: rgba(10, 10, 10);
+}
+
+.fa {
+	color: #fff099;
+	overflow: hidden;
+	font-size: 30px;
+	margin: 11px;
+	width: 60px;
+}
+
+.fa:hover{
+	text-decoration: none;
+	color: gold;
+}

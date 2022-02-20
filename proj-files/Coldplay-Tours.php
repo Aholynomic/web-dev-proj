@@ -47,7 +47,7 @@
 <footer>
 	<!-- footer social media links -->
 	<?php
-		include "php/footer.php";
+		include "footer.php";
 	?>
 </footer>
 </html> 

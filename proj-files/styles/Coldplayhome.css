@@ -1,7 +1,3 @@
-* {
-	margin: 0;
-}
-
 body, html {
 	height: 100%;
 }
@@ -10,37 +6,40 @@ a {
 	color: #fff099;
 }
 
+.active {
+	color: white;
+}
+
 a:hover {
 	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrap {
-	background-image: url('https://www.rollingstone.de/wp-content/uploads/2019/10/18/11/coldplay-moon-sun.jpg');
-	height: 200%;
+	background-image: url('background/background.jpg'); /* url: https://www.rollingstone.de/wp-content/uploads/2019/10/18/11/coldplay-moon-sun.jpg */
+	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 1300px 1400px;
-	
-	min-height: 100%;
-	margin-bottom: -75px;
-}
-
-.container-fluid * {
-	color: #fff099;
+	background-size: 2000px 1600px;
 }
 
 .navbar {
 	background-color: rgba(0, 0, 0, 0.3);
 	padding: 15px;
-	width: 1280px;
+	width: 100%;
+}
+
+.nav>li>a:hover {
+	background-color: transparent;
+	color: white;
 }
 
 .marquee, .siteName {
-	width: 1264px;
+	width: 99%;
 	padding: 20px;
 	position: absolute;
 	overflow: hidden;
-	/*background-color: black;*/
 	color: #fff099;
 	text-decoration: none;
 }
@@ -54,10 +53,11 @@ a:hover {
 	margin: 1px;
 }
 
-#seperator, footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	
-	height: 0px;
+footer {
+	border-top: solid 3px;
+	border-top-color: #fff099;
+	border-bottom: solid 3px;
+	border-bottom-color: #fff099;
+	background-color: rgba(0, 0, 0, 0.90);
+	text-align: center;
 }

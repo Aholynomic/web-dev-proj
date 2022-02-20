@@ -1,8 +1,8 @@
 <?php
 	session_start();
 	
-	if (!isset($_SESSION['loggedin'])){
-		header('location: Coldplay-Login.php');
+	if (!isset($_SESSION['loggedin'])) {
+		header('Location: Coldplay-Login.php');
 		exit();
 	}
 	else if ($_SESSION['priv'] == FALSE){
@@ -10,9 +10,21 @@
 		exit();
 	}
 	
-	include("connect.php");
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
 	
-	//new data
+	// REPLACE ME
+	$db_servername = "";
+	$db_username = "";
+	$db_password = "";
+	$db_name = "";
+		
+	$conn = mysqli_connect($db_servername, $db_username, $db_password, $db_name);
+	if (!$conn){
+		die("Connection failed: " . mysqli_connect_error());
+	}
+	
 	$Firstname = $_POST['firstname'];
 	$Surname = $_POST['surname'];
 	$EmailAddress = $_POST['email'];
@@ -21,18 +33,7 @@
 	$Password = $_POST['password'];
 	$Admin = $_POST['admin'];
 	
-	$sql = "UPDATE myTable SET Firstname=$Firstname, Surname=$Surname,
-	EmailAddress=$EmailAddress, Gender=$Gender, Username=$Username, Password=$Password, Admin=$Admin WHERE ID=?";
+	$ID = $_POST['id'];
 	
-	if (mysqli_query($conn, $sql)){
-		echo "Record updated successfully";
-	} else {
-		echo "Error updating record: " . mysqli_error($conn);
-	}
-	
-	mysqli_close($conn);
-	
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
+	$sql = "UPDATE myTable SET Firstname=?, Surname=?, EmailAdrress=?, Gender=?, Username=?, Password=?, Admin=? WHERE ID=?";
 ?>

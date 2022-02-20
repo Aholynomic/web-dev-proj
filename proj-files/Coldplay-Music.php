@@ -20,7 +20,7 @@
 		<nav class="navbar">
 			<div class="container-fluid">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="https://mayar.abertay.ac.uk/~1801853/coursework/index.php">Home</a></li>
+					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/index.php">Home</a></li>
 					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-About.php">About</a></li>
 					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-Tours.php">Tours</a></li>
 					<li><a class="active" href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-Music.php">Music</a></li>
@@ -120,10 +120,11 @@
 						<ol id="track-listing">
 							<div class="page-header" id="songs">
 								<li id="color">Everyday Life <button id="song" type="button" class="btn btn-link"><span class="glyphicon glyphicon-play-circle"></span></button></li>
-								<div id="play-song"></div>
 							</div>
 							<div id="extraInfo">
-								<button id="toggleFirst">Click for more information...</button>
+								<button id="clickinfo">Click for more information...</button>
+								<br>
+								<div id="info"></div>
 							</div>
 						</ol>
 					</div>
@@ -144,9 +145,6 @@
 							<div class="page-header" id="songs">
 								<li>Arabesque</li>
 							</div>
-							<div id="extraInfo">
-								<button id="toggleFirst">Click for more information...</button>
-							</div>
 						</ol>
 					</div>
 				</div>
@@ -165,9 +163,6 @@
 						<ol id="track-listing">
 							<div class="page-header" id="songs">
 								<li>Orphans</li>
-							</div>
-							<div id="extraInfo">
-								<button class="xInfo" id="">Click for more information...</button>
 							</div>
 						</ol>
 					</div>
@@ -212,9 +207,6 @@
 								</div>
 								<div class="page-header" id="songs">
 									<li>O</li>
-								</div>
-								<div id="extraInfo">
-									<button class="xInfo">Click for more information...</button>
 								</div>
 							</ol>
 						</div>
@@ -269,9 +261,6 @@
 								<div class="page-header" id="songs">
 									<li>Up & Up</li>
 								</div>
-								<div id="extraInfo">
-									<button class="xInfo">Click for more information...</button>
-								</div>
 							</ol>
 						</div>
 					</ol>
@@ -305,9 +294,6 @@
 							<div class="page-header" id="songs">
 								<li>Hypnotised</li>
 							</div>
-							<div id="extraInfo">
-								<button class="xInfo">Click for more information...</button>
-							</div>
 						</ol>
 					</div>
 				</div>
@@ -318,13 +304,13 @@
 	
 	<!-- scripts -->
 	
-	<script src="scripts/ajaxx/fetchSong.js"></script>
+	<script type="text/javascript" src="scripts/ajaxx/fetchInfo.js"></script>
 	<script src="scripts/javascript/activeSong.js"></script>
 </body>
 <footer>
 	<!-- footer social media links -->
 	<?php
-		include "php/footer.php";
+		include "footer.php";
 	?>
 </footer>
 </html> 

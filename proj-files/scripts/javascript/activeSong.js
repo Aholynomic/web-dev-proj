@@ -8,11 +8,3 @@ function listen()
 		alert("You are currently playing: Everyday Life");
 	}
 }
-
-/*
-function activeSong()
-{
-	document.getElementsByClassName("color").style.color = "gold";
-	alert("You are currently playing: Everyday Life");
-}
-*/

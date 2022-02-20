@@ -23,6 +23,13 @@ body, html {
 
 a {
 	color: #fff099; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#press {
+	color: #fff099;
+	background-color: rgba(0, 0, 0, 0.81);
+	border: 2px solid rgba(0, 0, 0, 0.81);
 }
 
 .active {
@@ -62,4 +69,5 @@ footer {
 	font-size: 600%;
 	border-top: 3px solid rgba(0,0,0,0.81);
 	border-bottom: 3px solid rgba(0,0,0,0.81);
+	font-family: Arial, Helvetica, sans-serif;
 }

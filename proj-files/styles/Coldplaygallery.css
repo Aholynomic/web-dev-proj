@@ -97,4 +97,10 @@ footer {
 	color: gold;
 }
 
+#but1, #but2, #but3, #but4 {
+	color: #fff099;
+	background-color: rgba(0, 0, 0, 0.81);
+	border: 2px solid rgba(0, 0, 0, 0.81);
+}
+
 

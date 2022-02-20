@@ -8,6 +8,7 @@
 	echo '<a href="" class="fa fa-google"></a>';
 	echo '<a href="" class="fa fa-spotify"></a>';
 	echo '<a href="" class="fa fa-tumblr"></a>';
+	echo '<a href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-Privacy.php">Privacy Policy</a>';
 	echo '</ul>';
 	echo '</div>';
 ?>

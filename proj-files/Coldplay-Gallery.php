@@ -20,7 +20,7 @@
 		<nav class="navbar">
 			<div class="container-fluid">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="https://mayar.abertay.ac.uk/~1801853/coursework/index.php">Home</a></li>
+					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/index.php">Home</a></li>
 					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-About.php">About</a></li>
 					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-Tours.php">Tours</a></li>
 					<li><a href="https://mayar.abertay.ac.uk/~1801853/coursework/Coldplay-Music.php">Music</a></li>
@@ -38,6 +38,7 @@
 			<h1 class="text-center">Gallery</h1>
 		</div>
 		<div class="main">
+			<br><br>
 			<button id="but1">Click to load more information</button>
 			<div class="row">
 				<div class="col-sm-4">
@@ -162,7 +163,7 @@
 <footer>
 	<!-- footer social media links -->
 	<?php
-		include "php/footer.php";
+		include "footer.php";
 	?>
 </footer>
 </html> 
