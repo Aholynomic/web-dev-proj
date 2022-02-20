@@ -1,0 +1,132 @@
+body, html {
+	height: 100%;
+	background-color: rgb(64, 64, 64);
+	margin: 0;
+}
+
+.active {
+	color: white;
+}
+
+.main {
+	border: 10px solid #000000;
+	background-color: #DCDCDC;
+	margin: 20px;
+}
+
+.glyphicon-play-circle {
+	color: #fff099;
+	font-size: 30px;
+}
+
+a {
+	color: #fff099; 
+}
+
+
+.nav>li>a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+.wrap {
+	background-image: url('background/everydaylife.jpg'); /* url: https://www.mrindie.com/wp-content/uploads/2019/11/coldplay-mrindie.jpg */
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 15px;
+}
+
+.img-thumbnail {
+	background-color: rgba(0, 0, 0, 0.81);
+	border: 1px solid rgba(0, 0, 0, 0.81);
+	width: 500px;
+	height: 600px;
+}
+
+#songs:hover {
+	opacity: 0.7;
+}
+
+#title {
+	color: #fff099; 
+}
+
+#track-listing > .page-header {
+	padding: 25px;
+	border: 3px solid rgba(0, 0, 0, 0.81);
+	width: 95%;
+	background-color: rgba(0, 0, 0, 0.81);
+}
+
+#songs {
+	color: #fff099;
+}
+
+#song-listings {
+	padding: 5px;
+	width: 100%;
+}
+
+#myCarousel {
+	border-bottom: 30px solid;
+	border-top: 30px solid;
+	border-bottom-color: rgba(0, 0, 0, 0.3);
+	border-top-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+}
+
+.container-fluid > .page-header {
+	color: #fff099;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 50px;
+	text-align: center;
+	margin: 10px;
+	border-top: solid 3px;
+	border-top-color: rgba(0, 0, 0, 0.3);
+	border-bottom: solid 3px;
+	border-bottom-color: rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	text-align: center;
+	color: fff099;
+	margin: 5px;
+	padding: 10px;
+}
+
+#header {
+	color: #fff099;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	background-color: rgba(0, 0, 0, 0.81);
+	padding: 10px;
+}
+
+.fa {
+	color: #fff099;
+	overflow: hidden;
+	font-size: 30px;
+	margin: 11px;
+	width: 60px;
+}
+
+.fa:hover{
+	text-decoration: none;
+}
+
+.footerSocialMedia {
+	text-align: center;
+}
+
+footer {
+	border-top: solid 3px;
+	border-top-color: #fff099;
+	border-bottom: solid 3px;
+	border-bottom-color: #fff099;
+	background-color: rgba(10, 10, 10);
+}

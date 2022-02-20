@@ -1,0 +1,78 @@
+body {
+	background-image: url('https://www.rollingstone.de/wp-content/uploads/2019/10/18/11/coldplay-moon-sun.jpg');
+	background-repeat: no-repeat;
+	background-size: 1300px 600px;
+}
+
+/*
+p {
+	background-color: #F0F8FF;
+	width: 200px;
+	border: 10px;
+	padding: 10px;
+	margin: 20px;
+	float: left;
+}
+*/
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.81);
+	opacity: 0.2;
+	border: 3px solid gold;
+}
+
+/*social media icons*/
+
+.fa {
+	padding: 20px;
+	font-size: 40px;
+	text-decoration: none;
+	width: 30px;
+	position: absolute;
+	margin: 2px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	color: #FFD700;
+	left: 450px;
+}
+.fa-youtube {
+	color: #FFD700;
+	left: 500px;
+}
+.fa-instagram {
+	color: #FFD700;
+	left: 550px;
+}
+.fa-google {
+	color: #FFD700;
+	left: 600px;
+}
+.fa-tumblr {
+	color: #FFD700;
+	left: 650px;
+}
+.fa-spotify {
+	color: #FFD700;
+	left: 700px;
+}
+.fa-twitter {
+	color: #FFD700;
+	left: 750px;
+}
+
+/* -------------------- */
+
+/* style the footer and place at bottom */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/* -------------------- */

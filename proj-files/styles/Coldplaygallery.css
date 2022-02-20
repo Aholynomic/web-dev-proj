@@ -1,0 +1,100 @@
+body, html {
+	height: 100%;
+	background-color: rgb(64, 64, 64);
+	margin: 0;
+	padding: 0;
+}
+
+.active {
+	color: white;
+}
+
+.main {
+	border: 10px solid #000000;
+	background-color: #DCDCDC;
+	margin: 10px;
+}
+
+.col-sm-4 {
+	width: 430px;
+	margin: 10px;
+}
+
+.caption {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #fff099;
+	width: 400px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.81);
+	color: #fff099;
+}
+
+.col-sm-4>a>img {
+	width: 400px;
+	height: 350px;
+	border: 1px solid #fff099;
+}
+
+.page-header {
+	border-bottom: 3px solid;
+	border-bottom-color: rgba(0, 0, 0, 0.81);
+}
+
+.wrap {
+	background-image: url('background/everydaylife.jpg'); /* url: https://www.mrindie.com/wp-content/uploads/2019/11/coldplay-mrindie.jpg */
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 15px;
+}
+
+.nav>li>a:hover {
+	background-color: transparent;
+	color: white;
+}
+
+a {
+	color: #fff099; 
+}
+
+.title {
+	padding: 15px;
+	border: 3px solid rgba(0, 0, 0, 0.81);
+	background-color: rgba(0, 0, 0, 0.81);
+}
+
+.title>.text-center{
+	color: #fff099;
+}
+
+.footerSocialMedia {
+	text-align: center;
+}
+
+footer {
+	border-top: solid 3px;
+	border-top-color: #fff099;
+	border-bottom: solid 3px;
+	border-bottom-color: #fff099;
+	background-color: rgba(10, 10, 10);
+}
+
+.fa {
+	color: #fff099;
+	overflow: hidden;
+	font-size: 30px;
+	margin: 11px;
+	width: 60px;
+}
+
+.fa:hover{
+	text-decoration: none;
+	color: gold;
+}
+
+
