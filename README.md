@@ -4,7 +4,7 @@ A website for Coldplay created to demonstrate outcomes in CMP204. The following 
 * HTML5
 * Bootstrap
 * JS
-* Jquery
+* jQuery
 * Ajax
 * PHP
 * MySQL
